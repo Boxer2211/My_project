@@ -1,0 +1,283 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    font-family: 'Montserrat';
+}
+input,button,textarea{font-family:inherit;}
+
+body {
+    display: flex;
+    justify-content: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 4775173 (cv)
+=======
+    
+>>>>>>> f2d8512 (добавление документов)
+}
+
+.container {
+    width: 1200px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;    
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4775173 (cv)
+=======
+
+>>>>>>> f2d8512 (добавление документов)
+.leftSide {
+    width: 370px;
+    background-color: #1E2939;
+    
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4775173 (cv)
+=======
+
+>>>>>>> f2d8512 (добавление документов)
+.foto{
+    text-align: center;
+}
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.items{
+    padding: 0 5px 10px 5px;
+}
+.items h2{
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 22px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 700;
+}
+.items h3{
+    padding: 0 20px;
+    margin-top: 7px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.items p{
+    padding: 0 25px;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(197, 197, 197);
+    
+}
+.item {
+    color: white;
+}
+.list {
+    color: white;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+.contacts img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0px 0px;
+}
+.contacts a{
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+.contacts a:hover{
+  text-decoration: underline;    
+}
+.contact__div{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+    padding-left: 15px;
+}
+.rightSide {
+    width: 830px;
+    padding: 50px 10px 15px 80px;
+    background-color: rgba(209, 223, 223, 0.295);
+}
+.summury{
+    width: 400px;
+    text-align: justify;
+    margin: 24px 0 40px 0;
+}
+.project__main{
+    display: block;
+   
+}
+
+.rightitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightitem h2{
+    line-height: 27px;
+    margin-top: 20px;
+}
+.rightitem img{
+    width: 200px;
+    height: 130px;
+}
+.rightitem a{
+    text-decoration: none;
+    color: black;
+}
+.rightitem a:hover{
+    text-decoration: underline;
+    
+}
+.project{
+    display: flex;
+    margin-top: 15px;
+}
+.project__items{
+    margin-left: 10px;
+}
+.link{
+    font-weight: 700;
+    margin: 15px 0 5px 0px;
+}
+.rightlst{
+    
+    font-size: 14px;
+    line-height: 22px;
+    
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2d8512 (добавление документов)
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 99%;
+         
+    }
+    .leftSide {
+        width: 37%;       
+    }
+    .rightSide {
+        width: 83%;
+        
+    }
+    .foto img{
+        width: 50%;
+        height: 50%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .container {
+        width: 99%;  
+    }
+    .container h2{
+         font-size: 16px;
+    }
+    .container h3{
+        font-size: 14px;
+    }
+    .leftSide {
+        width: 37%;      
+    }
+    .rightSide {
+       padding: 15px; 
+    }
+    .rightSide p{
+        padding: 0px;
+        margin: 5px 0 0 0;
+        flex-wrap: wrap;
+    }
+    .summury{
+        width: 80%;
+        margin: 5px;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    h1{
+       font-size: 20px;
+    }
+    .foto img{
+        width: 50%;
+        height: 50%;
+    }
+    .contacts a{
+        font-size: 10px;
+    }
+    .project img{
+        width: 100px;
+        height: 50px;
+    }
+   
+  }
+  @media (max-width: 615px) {
+    .list p{
+        padding: 0px;
+        font-size: 10px;
+    }
+    .item p{
+        padding: 0px;
+        font-size: 10px;
+    }
+    .contact__div{
+        padding: 0px;
+    }
+    .contacts a{
+        font-size: 7px;
+    }
+    .project__main{
+        font-size: 10px;
+    }
+    .project img{
+        width: 80px;
+        height: 40px;
+    }
+    
+  }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 4775173 (cv)
+=======
+>>>>>>> f2d8512 (добавление документов)
