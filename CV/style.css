@@ -30,14 +30,7 @@ input,button,textarea{font-family:inherit;}
 body {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-=======
->>>>>>> 4775173 (cv)
-=======
-    
->>>>>>> f2d8512 (добавление документов)
+
 }
 
 .container {
@@ -46,27 +39,13 @@ body {
     display: flex;
     justify-content: center;    
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 4775173 (cv)
-=======
-
->>>>>>> f2d8512 (добавление документов)
 .leftSide {
     width: 370px;
     background-color: #1E2939;
     
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 4775173 (cv)
-=======
-
->>>>>>> f2d8512 (добавление документов)
 .foto{
     text-align: center;
 }
@@ -185,10 +164,7 @@ body {
     font-size: 14px;
     line-height: 22px;
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f2d8512 (добавление документов)
+
 }
 @media (max-width: 1200px) {
     .container {
@@ -275,9 +251,5 @@ body {
     }
     
   }
-<<<<<<< HEAD
-=======
-}
->>>>>>> 4775173 (cv)
-=======
->>>>>>> f2d8512 (добавление документов)
+
+
