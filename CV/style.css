@@ -118,10 +118,12 @@ body {
     background-color: rgba(209, 223, 223, 0.295);
 }
 .summury{
-    width: 400px;
+    width: 90%;
     text-align: justify;
-    margin: 24px 0 40px 0;
+    margin: 24px 0 10px 0;
+    line-height: 15px;
 }
+
 .project__main{
     display: block;
    
@@ -135,6 +137,17 @@ body {
 .rightitem h2{
     line-height: 27px;
     margin-top: 20px;
+}
+.rightitem h2:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	/* border: solid rgb(225, 247, 252);
+	border-width: 0 20px; */
 }
 .rightitem img{
     width: 200px;
@@ -160,11 +173,18 @@ body {
     margin: 15px 0 5px 0px;
 }
 .rightlst{
-    
     font-size: 14px;
     line-height: 22px;
-    
-
+}
+.rightlsth3{
+    margin: 10px 0 0 0;
+}
+#goitimg{
+    width: 200px;
+    height: 250px;
+}
+.PP{
+    margin: 20px 0 5px 0 ;
 }
 @media (max-width: 1200px) {
     .container {
