@@ -1,0 +1,31 @@
+.footer{
+    background-color: #f6f6f8;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_item{
+    margin: 20px 10px;
+    color: black;
+}
+.footer_itemLink{
+    margin: 20px 10px;
+}
+.footer_item p{
+    margin-top: 10px;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+}
+.Link{
+    margin-top: 10px;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .footer{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+
+}
