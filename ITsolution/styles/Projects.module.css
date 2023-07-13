@@ -1,0 +1,40 @@
+
+.projects__navbar{
+    background: linear-gradient(to right, #a5a5a5, #7c7c7c, #3f3f3f);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.projects__container{
+    background: linear-gradient(to right, #a5a5a5, #7c7c7c, #3f3f3f);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.projects__item{
+    margin: 10px;
+ }
+ .projects__img{
+     width: 250px;
+     height: 250px;
+     margin-bottom: 10px;
+    
+ }
+ .projects__img img{
+     display: block;
+     width: 100%;
+     height: 100%;
+     border-radius: 5px;
+ }

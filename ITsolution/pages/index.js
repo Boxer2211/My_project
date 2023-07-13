@@ -12,7 +12,7 @@ const Index = () => {
                         <div className={styles.textOnImg}>
                             <p>IT студія</p>
                             <h1>Ми створюємо прості рішення<br />складних завдань</h1>
-                            <Link href='/' className={styles.linkOnProjects}>Наші проєкти</Link>
+                            <Link href="/projects" className={styles.linkOnProjects}>Наші проєкти</Link>
                         </div>
                     </div>
 
@@ -58,7 +58,7 @@ const Index = () => {
                                         </div>               
                                 </div>                        
                             </div>
-                            <div className={styles.servises__button}><Link href='/' className={styles.linkOnProjects}>Всі послуги</Link></div>
+                            <div className={styles.servises__button}><Link href='/services' className={styles.linkOnProjects}>Всі послуги</Link></div>
                             
                         </div>
                     </div>
@@ -100,6 +100,7 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
+                    
                     <div className={styles.projects}>
                         <div className={styles.projects__container}>
                             <div className={styles.projects__header}>
@@ -133,7 +134,7 @@ const Index = () => {
                                 </div>
                             </div>
 
-                            <div className={styles.servises__button}><Link href='/' className={styles.linkOnProjects}>Всі проекти</Link></div>
+                            <div className={styles.servises__button}><Link href="/projects" className={styles.linkOnProjects}>Всі проекти</Link></div>
                         </div>
                     </div>
 

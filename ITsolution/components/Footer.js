@@ -17,9 +17,9 @@ const Footer = () => {
                     <h2>Навігація по сайту</h2>
                     <div className={styles.Links}>
                     <Link href="/" className={styles.Link}>Головна</Link>
-                    <Link href="/" className={styles.Link}>Наші проєкти</Link>
-                    <Link href="/" className={styles.Link}>Послуги</Link>
-                    <Link href="/" className={styles.Link}>Контакти</Link>
+                    <Link href="/projects" className={styles.Link}>Наші проєкти</Link>
+                    <Link href="/services" className={styles.Link}>Послуги</Link>
+                    <Link href="/contacts" className={styles.Link}>Контакти</Link>
                     </div>
                 </div>
                 <div className={styles.footer_item}>

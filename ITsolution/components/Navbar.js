@@ -14,9 +14,9 @@ const Navbar = () => {
             <div className={styles.navbar}>
                 <div className={styles.navbar__links}>
                     <A href={"/"} text="Головна"></A>
-                    <A href={"/users"} text="Наші проєкти"></A>
-                    <A href={"/users"} text="Послуги"></A>
-                    <A href={"/users"} text="Контакти"></A>
+                    <A href={"/projects"} text="Наші проєкти"></A>
+                    <A href={"/services"} text="Послуги"></A>
+                    <A href={"/contacts"} text="Контакти"></A>
                 </div>
             </div>
            
