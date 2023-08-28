@@ -1,5 +1,5 @@
 .navbar{
-    width: 100%;
+    width: fit-content;
     height: 100vh;
     margin: 30px 5px 0px 147px;
     position: fixed;
@@ -71,7 +71,9 @@
     color: white;
 }
 
-
+.navbar__siteLogo{
+    width: fit-content;
+}
 
 @media (max-width: 900px) {
     

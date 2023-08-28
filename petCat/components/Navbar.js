@@ -11,11 +11,9 @@ const Navbar = () => {
                 <title>Main page</title>
             </Head>
             <div className={styles.navbar}>
-                <Link href="/">
                     <div className={styles.navbar__siteLogo}>
-                        <img src="./Logo.svg" alt="Logo" />
+                        <Link href="/"> <img src="./Logo.svg" alt="Logo" /> </Link>
                     </div>
-                </Link>
                <div className={styles.navbar__greetings}>
                 <p> Hi! 👋</p>
                 <p className={styles.greetings__p}>Welcome to MacPaw Bootcamp 2023</p>
